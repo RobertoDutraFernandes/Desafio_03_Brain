@@ -18,7 +18,7 @@ Posteriormente é feita remoção dos dados que não possuimos o target ('produc
 Nesta etapa fazemos a definição das features que serão utilizadas para treinamento do modelo.
 
 ## Análise de dados:
-Cosiste na seleção das features que serão usadas para o treinamento do modelo, esta é feita com base na análise de gráfica e dos dados obtidos atráves da etapa anterior em conjunto com o julgamento do desenvolvedor. Diversos gráficos foram feitos nesta etapa, porém foi mantido apenas aqueles que foram julgados utéis para seleção das features.
+Consiste na seleção das features que serão usadas para o treinamento do modelo, esta é feita com base na análise de gráfica e dos dados obtidos atráves da etapa anterior em conjunto com o julgamento do desenvolvedor. Diversos gráficos foram feitos nesta etapa, porém foi mantido apenas aqueles que foram julgados utéis para seleção das features.
 
 ### Correlação dos dados
 ![alt text](/desafio03/imagens/grafico_corr.png)

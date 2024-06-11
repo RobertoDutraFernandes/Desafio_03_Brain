@@ -20,7 +20,18 @@ Nesta etapa fazemos a definição das features que serão utilizadas para treina
 ## Análise de dados:
 Cosiste na seleção das features que serão usadas para o treinamento do modelo, esta é feita com base na análise de gráfica e dos dados obtidos atráves da etapa anterior em conjunto com o julgamento do desenvolvedor. Diversos gráficos foram feitos nesta etapa, porém foi mantido apenas aqueles que foram julgados utéis para seleção das features.
 
+### Correlação dos dados
+![alt text](/desafio03/imagens/grafico_corr.png)
+
+### Produção de cada mês:
+![alt text](/desafio03/imagens/prod_meses.png)
+
+### Produção de cada campo:
+![alt text](/desafio03/imagens/prod_fields.png)
 
 # Etapa III - Desenvolvimento e treinamento do modelo:
 ## Treinamento da IA:
-Com as features selecionadas foi feito o treinamento do modelo de diversas formas diferentes. Utilizou-se random forest regressor e linear regression, esses 2 métodos foram testados de diferentes formas, porém o melho resultado obtido foi de utilização do random forest regressor utilizando todos os parametros selecionados previamentes. Através da métrica de avaliação 'mean absolute error', obteu-se um desempenho de 0,0776 aproximadamente.
+Com as features selecionadas foi feito o treinamento do modelo de diversas formas diferentes. Utilizou-se random forest regressor e linear regression, esses 2 métodos foram testados de diferentes formas, porém o melho resultado obtido foi de utilização do random forest regressor(sem a presença de janela temporal) utilizando todos os parametros selecionados previamentes. Através da métrica de avaliação 'mean absolute error', obteu-se um desempenho de 0,0776 aproximadamente.
+
+### Desempenho do modelo:
+![alt text](/desafio03/imagens/desempenho_model.png)
